@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зоопарк редких животных</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 870px;
+            margin: 0 auto;
+        }
+        section {
+            float: left;
+            width: 400px;
+        }
+        .advertisement {
+            float: right;
+            width: 350px;
+            margin-top: 90px;
+            padding: 30px;
+            border: 2px dotted navy;
+        }
+        .reviews {
+            width: 870px;
+            float: left;
+            margin-left: 30px;
+            clear: both;
+            margin-top: 30px;
+        }
+        .review {
+            border-left: 10px double navy;
+            width: 350px;
+            padding-left: 10px;
+            margin-bottom: 20px;
+        }
+        .review-text img {
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+        }
+        .reviewer-name {
+            color: firebrick;
+            border-bottom: 1px dotted firebrick;
+            display: inline-block;
+        }
+        .review_after img {
+            width: 30px;
+            height: 35px;
+        }
+        .review_after img:hover {
+            border-bottom: 3px dotted darkorange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <h1 style="color: blueviolet; font-size: 30px;">Зоопарк редких животных</h1>
+            <h2 style="color: navy;">Более 150 видов</h2>
+            <p>Вы увидите крупных диких представителей живой природы, а также редких птиц, змей и многое другое!</p>
+            <img src="https://avatars.mds.yandex.net/i?id=cb5466b8234a2db804b707db4ad4ff11_l-5228318-images-thumbs&n=13" width="400px">
+        </section>
+        
+        <div class="advertisement">
+            <h3 style="color: navy;">Внимание! Специальное предложение от партнёра!</h3>
+            <p><a href="" style="border-bottom: 1px dotted; text-decoration: none;">Щенки хаски</a> от заводчика со всеми документами</p>
+            <img src="https://avatars.mds.yandex.net/i?id=971152cb319850e05ceac1b93158c0bc-4818427-images-thumbs&n=13" width="150px">
+            <img src="https://avatars.mds.yandex.net/i?id=ccec38c76ee07dfc140c2c5d9bd842ceba5c90f1-2431798-images-thumbs&n=13" width="124px">
+        </div>
+        
+        <div class="reviews">
+            <div class="review">
+                <div style="display: flex;">
+                    <div class="review-text"><img src="https://static.tildacdn.com/tild3537-6530-4537-a635-646566656634/2.png"></div>
+                    <div class="reviewer-name" style="margin-top: 10px; margin-left: 5px;">Олег</div>
+                </div>
+                <p>Были в серпентарии. <br> Ребёнок в восторге!</p>
+                <div class="review_after"><img src="https://cdn4.iconfinder.com/data/icons/startup-line/512/like-1024.png" class=""></div>
+            </div>
+            
+            <div class="review">
+                <div style="display: flex;">
+                    <div class="review-text"><img src="https://static.tildacdn.com/tild3537-6530-4537-a635-646566656634/2.png"></div>
+                    <div class="reviewer-name" style="margin-top: 10px; margin-left: 5px;">Наталья</div>
+                </div>
+                <p>Спасибо за экскурсию! <br> Очень интересно!</p>
+                <div class="review_after"><img src="https://cdn4.iconfinder.com/data/icons/startup-line/512/like-1024.png" alt=""></div>
+            </div>
+            
+            <div class="review">
+                <div style="display: flex;">
+                    <div class="review-text"><img src="https://static.tildacdn.com/tild3537-6530-4537-a635-646566656634/2.png" alt=""></div>
+                    <div class="reviewer-name" style="margin-top: 10px; margin-left: 5px;">Анна</div>
+                </div>
+                <p>Так и не попали к птицам. жаль... <br> Однако, остальное очень здорово!</p>
+                <div class="review_after"><img src="https://cdn4.iconfinder.com/data/icons/startup-line/512/like-1024.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
