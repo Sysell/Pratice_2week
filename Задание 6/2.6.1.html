@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: navy;
+            margin: 10px;
+            padding: 20px;
+        }
+        header a {
+            background-color: white;
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+            border: 1px solid white;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 10px;
+        }
+        .news {
+            background-color: rgb(42, 222, 222);
+            border: 1px solid rgb(42, 222, 222);
+            border-radius: 10px;
+        }
+        .posts-container {
+            display: flex; 
+            justify-content: center; 
+            flex-wrap: wrap; 
+            gap: 20px; 
+        }
+        .posts {
+            width: 400px;
+            height: 650px;
+            border: 3px solid navy;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+        .posts:hover {
+            box-shadow: 0 5px 5px 5px blue;
+        }
+        h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+        footer {
+            background-color: rgb(143, 221, 242);
+            margin: 10px;
+            padding: 10px;
+        }
+        footer p {
+            background-color: white;
+            padding: 5px;
+        }
+        i {
+            background-color: navy;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://mobiletrans.wondershare.com/images/images2019/pixel-cells-g3e1f356f8_1280%20.png" width="200px" style="background-color: white;">
+        <a href="#News" class="news">Новости</a>
+        <a href="#Events">Конкурс</a>
+        <a href="#Evolve">Планы развития</a>
+    </header>
+    <h1>Pixel Design</h1>
+    <h2 style="font-size: 40px; color: blueviolet; margin-left: 175px;">Наши последние новости</h2>
+    <div class="posts-container">
+        <div class="posts">
+            <img src="https://avatars.mds.yandex.net/i?id=5781e15ceaed289638edfd6cf199b9eecea3f2c8-10024022-images-thumbs&n=13" width="200px" >
+            <p style="font-size: 30px;">В нашей студии новый дизайнер: пиксель Cube. Именно он будет выполнять ваши заказы по трёх мерной графике. Увлекается ландшафтным и интерьерным дизайном. Недавно он давал интервью газете <i>Progress news</i></p>
+        </div>
+        <div class="posts">
+            <img src="https://camo.githubusercontent.com/774d367fcfc5bdf5343847de409739343686dfd208890194b21462bb8c2a7cbd/68747470733a2f2f6d6172732e616c676f7269746d696b612e6f72672f75706c6f6164732f323032302f31312f706978656c2d63656c6c732d333730323035365f313238305f305f313630363437393630372e706e67" width="200px">
+            <p style="font-size: 30px;">Весной следующего года мы участвуем в конкурсе дизайна. Наши работы будут представлены в направлениях: <i>веб-дизайн, полиграфический дизайн, дизайн интерьеров</i>. По каждому направлению мы собираемся представить несколько работ, которые пройдут предварительный отбор в нашей студии.</p>
+        </div>
+        <div class="posts">
+            <img src="https://avatars.dzeninfra.ru/get-zen_doc/3397137/pub_614a32e4e1dfd6493f967893_614a3afa1767f96df41e6b1c/scale_1200" width="250px" style="margin-top: 35px;">
+            <p style="font-size: 30px;">В этом месяце мы готовим <i>годовое планирование нашей работы</i>. Кроме того, что мы принимаем и выполняем клиентские заказы по дизайну, мы учавствуем в конкурсах, учимся на онлайн курсах, повышающих наше мастерство, просматриваем сборники лучших работ, которые можно найти в Интернете</p>
+        </div>
+    </div>
+    <footer>
+        <p style="font-style: italic"><b>Контакты</b></p>
+        <p>Адрес: г. Техноград, ул. Дисплейная, 15</p>
+        <p>Тел.: 8895-6341</p>
+    </footer>
+</body>
+</html>

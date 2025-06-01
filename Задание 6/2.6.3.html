@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        font-family: sans-serif;
+        }
+
+        header {
+        color: blueviolet;
+        display: flex;
+        gap: 50px;
+        justify-content: right;
+        background-image: linear-gradient(lightblue, white);
+        }
+
+        header p {
+        font-size: 25px;
+        margin-right: 40px;
+        }
+
+        h1 {
+        font-size: 50px;
+        text-align: center;
+        }
+
+        .container {
+        width: 360px;
+        height: 450px;
+        flex-wrap: wrap;
+        border: 1px solid black;
+        display: flex;
+        position: relative;
+        }
+
+        .container img {
+        width: 120px;
+        opacity: 50%;
+        height: auto;
+        box-sizing: border-box;
+        transition: ease-out 0.5s;
+        }
+
+        .container img:hover {
+        transform: scale(1.4);
+        opacity: 100%;
+        z-index: 1;
+        border: 6px solid rgb(255, 255, 255);
+        border-color: navy;
+        background-color: white;
+        padding: 5px;
+        }
+
+        .main_container {
+        justify-content: center;
+        display: flex;
+        align-items: start;
+        gap: 50px;
+        }
+
+        .text {
+        width: 300px;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        color: rgb(189, 211, 220);
+        gap: 20px;
+        justify-content: end;
+        }
+
+        .text i {
+        text-align: center;
+        margin-left: 150px;
+        }
+
+        .text p:hover {
+        font-size: 45px;
+        color: navy;
+        }
+
+        .text i:hover {
+        font-size: 45px;
+        color: darkorange;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>Сезонные акции</p>
+        <p>Контакты</p>
+    </header>
+  
+    <h1>Горные экскурсии</h1>
+  
+    <div class="main_container">
+        <div class="container">
+            <img src="https://i.pinimg.com/736x/a3/f7/be/a3f7be99280e37d7b57c8bd08e437e68.jpg" alt="">
+            <img src="https://i.pinimg.com/736x/e4/68/35/e468352f75f593f28b36dd86b3fd3f2c.jpg" alt="">
+            <img src="https://i.pinimg.com/736x/03/07/95/0307955a25f7818b0fe34d746670596f.jpg" alt="">
+            <img src="https://i.pinimg.com/736x/44/2a/63/442a63422de5dba4fb31b81f4d8a635a.jpg" alt="">
+            <img src="https://avatars.mds.yandex.net/i?id=d1e772303aff5f49652e8aefb59dc954_l-4829635-images-thumbs&n=13" alt="">
+            <img src="https://i.pinimg.com/736x/ee/76/63/ee7663ae4d8a99288d7c24918ed64412.jpg" alt="">
+        </div>
+    
+        <div class="text">
+        <p>Только</p>
+        <i>горы!</i>
+        <p>Только</p>
+        <i>вперед!</i>
+        </div>
+    </div>
+</body>
+</html>
